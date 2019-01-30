@@ -1,0 +1,388 @@
+{
+    "road_type": "ARTERIAL ROADS",
+    "road_name": "Kramat Road",
+    "last_updated": "30 Jan 2019",
+    "zone_id": "OC1",
+    "lat": "103.842011763745",
+    "rates": [
+        {
+            "vcc_type": "1",
+            "rates": [
+                {
+                    "price": 0.0,
+                    "start_date": "07:00",
+                    "end_date": "12:00"
+                },
+                {
+                    "price": 0.5,
+                    "start_date": "12:00",
+                    "end_date": "17:30"
+                },
+                {
+                    "price": 1.0,
+                    "start_date": "17:30",
+                    "end_date": "17:35"
+                },
+                {
+                    "price": 1.5,
+                    "start_date": "17:35",
+                    "end_date": "18:00"
+                },
+                {
+                    "price": 2.0,
+                    "start_date": "18:00",
+                    "end_date": "18:55"
+                },
+                {
+                    "price": 1.5,
+                    "start_date": "18:55",
+                    "end_date": "19:00"
+                },
+                {
+                    "price": 1.0,
+                    "start_date": "19:00",
+                    "end_date": "19:55"
+                },
+                {
+                    "price": 0.5,
+                    "start_date": "19:55",
+                    "end_date": "20:00"
+                },
+                {
+                    "price": 0.0,
+                    "start_date": "20:00",
+                    "end_date": "22:30"
+                }
+            ],
+            "day_type": "0",
+            "vehicle": "Passenger Cars/Light Goods Vehicles/Taxis"
+        },
+        {
+            "vcc_type": "1",
+            "rates": [
+                {
+                    "price": 0.0,
+                    "start_date": "07:00",
+                    "end_date": "12:30"
+                },
+                {
+                    "price": 0.5,
+                    "start_date": "12:30",
+                    "end_date": "12:35"
+                },
+                {
+                    "price": 1.0,
+                    "start_date": "12:35",
+                    "end_date": "18:30"
+                },
+                {
+                    "price": 1.5,
+                    "start_date": "18:30",
+                    "end_date": "18:35"
+                },
+                {
+                    "price": 2.0,
+                    "start_date": "18:35",
+                    "end_date": "19:55"
+                },
+                {
+                    "price": 1.0,
+                    "start_date": "19:55",
+                    "end_date": "20:00"
+                },
+                {
+                    "price": 0.0,
+                    "start_date": "20:00",
+                    "end_date": "22:30"
+                }
+            ],
+            "day_type": "1",
+            "vehicle": "Passenger Cars/Light Goods Vehicles/Taxis"
+        },
+        {
+            "vcc_type": "2",
+            "rates": [
+                {
+                    "price": 0.0,
+                    "start_date": "07:00",
+                    "end_date": "12:00"
+                },
+                {
+                    "price": 0.25,
+                    "start_date": "12:00",
+                    "end_date": "17:30"
+                },
+                {
+                    "price": 0.5,
+                    "start_date": "17:30",
+                    "end_date": "17:35"
+                },
+                {
+                    "price": 0.75,
+                    "start_date": "17:35",
+                    "end_date": "18:00"
+                },
+                {
+                    "price": 1.0,
+                    "start_date": "18:00",
+                    "end_date": "18:55"
+                },
+                {
+                    "price": 0.75,
+                    "start_date": "18:55",
+                    "end_date": "19:00"
+                },
+                {
+                    "price": 0.5,
+                    "start_date": "19:00",
+                    "end_date": "19:55"
+                },
+                {
+                    "price": 0.25,
+                    "start_date": "19:55",
+                    "end_date": "20:00"
+                },
+                {
+                    "price": 0.0,
+                    "start_date": "20:00",
+                    "end_date": "22:30"
+                }
+            ],
+            "day_type": "0",
+            "vehicle": "Motorcycles"
+        },
+        {
+            "vcc_type": "2",
+            "rates": [
+                {
+                    "price": 0.0,
+                    "start_date": "07:00",
+                    "end_date": "12:30"
+                },
+                {
+                    "price": 0.25,
+                    "start_date": "12:30",
+                    "end_date": "12:35"
+                },
+                {
+                    "price": 0.5,
+                    "start_date": "12:35",
+                    "end_date": "18:30"
+                },
+                {
+                    "price": 0.75,
+                    "start_date": "18:30",
+                    "end_date": "18:35"
+                },
+                {
+                    "price": 1.0,
+                    "start_date": "18:35",
+                    "end_date": "19:55"
+                },
+                {
+                    "price": 0.5,
+                    "start_date": "19:55",
+                    "end_date": "20:00"
+                },
+                {
+                    "price": 0.0,
+                    "start_date": "20:00",
+                    "end_date": "22:30"
+                }
+            ],
+            "day_type": "1",
+            "vehicle": "Motorcycles"
+        },
+        {
+            "vcc_type": "3",
+            "rates": [
+                {
+                    "price": 0.0,
+                    "start_date": "07:00",
+                    "end_date": "12:00"
+                },
+                {
+                    "price": 0.75,
+                    "start_date": "12:00",
+                    "end_date": "17:30"
+                },
+                {
+                    "price": 1.5,
+                    "start_date": "17:30",
+                    "end_date": "17:35"
+                },
+                {
+                    "price": 2.25,
+                    "start_date": "17:35",
+                    "end_date": "18:00"
+                },
+                {
+                    "price": 3.0,
+                    "start_date": "18:00",
+                    "end_date": "18:55"
+                },
+                {
+                    "price": 2.25,
+                    "start_date": "18:55",
+                    "end_date": "19:00"
+                },
+                {
+                    "price": 1.5,
+                    "start_date": "19:00",
+                    "end_date": "19:55"
+                },
+                {
+                    "price": 0.75,
+                    "start_date": "19:55",
+                    "end_date": "20:00"
+                },
+                {
+                    "price": 0.0,
+                    "start_date": "20:00",
+                    "end_date": "22:30"
+                }
+            ],
+            "day_type": "0",
+            "vehicle": "Heavy Goods Vehicles/Small Buses"
+        },
+        {
+            "vcc_type": "3",
+            "rates": [
+                {
+                    "price": 0.0,
+                    "start_date": "07:00",
+                    "end_date": "12:30"
+                },
+                {
+                    "price": 0.75,
+                    "start_date": "12:30",
+                    "end_date": "12:35"
+                },
+                {
+                    "price": 1.5,
+                    "start_date": "12:35",
+                    "end_date": "18:30"
+                },
+                {
+                    "price": 2.25,
+                    "start_date": "18:30",
+                    "end_date": "18:35"
+                },
+                {
+                    "price": 3.0,
+                    "start_date": "18:35",
+                    "end_date": "19:55"
+                },
+                {
+                    "price": 1.5,
+                    "start_date": "19:55",
+                    "end_date": "20:00"
+                },
+                {
+                    "price": 0.0,
+                    "start_date": "20:00",
+                    "end_date": "22:30"
+                }
+            ],
+            "day_type": "1",
+            "vehicle": "Heavy Goods Vehicles/Small Buses"
+        },
+        {
+            "vcc_type": "4",
+            "rates": [
+                {
+                    "price": 0.0,
+                    "start_date": "07:00",
+                    "end_date": "12:00"
+                },
+                {
+                    "price": 1.0,
+                    "start_date": "12:00",
+                    "end_date": "17:30"
+                },
+                {
+                    "price": 2.0,
+                    "start_date": "17:30",
+                    "end_date": "17:35"
+                },
+                {
+                    "price": 3.0,
+                    "start_date": "17:35",
+                    "end_date": "18:00"
+                },
+                {
+                    "price": 4.0,
+                    "start_date": "18:00",
+                    "end_date": "18:55"
+                },
+                {
+                    "price": 3.0,
+                    "start_date": "18:55",
+                    "end_date": "19:00"
+                },
+                {
+                    "price": 2.0,
+                    "start_date": "19:00",
+                    "end_date": "19:55"
+                },
+                {
+                    "price": 1.0,
+                    "start_date": "19:55",
+                    "end_date": "20:00"
+                },
+                {
+                    "price": 0.0,
+                    "start_date": "20:00",
+                    "end_date": "22:30"
+                }
+            ],
+            "day_type": "0",
+            "vehicle": "Very Heavy Goods Vehicles/Big Buses"
+        },
+        {
+            "vcc_type": "4",
+            "rates": [
+                {
+                    "price": 0.0,
+                    "start_date": "07:00",
+                    "end_date": "12:30"
+                },
+                {
+                    "price": 1.0,
+                    "start_date": "12:30",
+                    "end_date": "12:35"
+                },
+                {
+                    "price": 2.0,
+                    "start_date": "12:35",
+                    "end_date": "18:30"
+                },
+                {
+                    "price": 3.0,
+                    "start_date": "18:30",
+                    "end_date": "18:35"
+                },
+                {
+                    "price": 4.0,
+                    "start_date": "18:35",
+                    "end_date": "19:55"
+                },
+                {
+                    "price": 2.0,
+                    "start_date": "19:55",
+                    "end_date": "20:00"
+                },
+                {
+                    "price": 0.0,
+                    "start_date": "20:00",
+                    "end_date": "22:30"
+                }
+            ],
+            "day_type": "1",
+            "vehicle": "Very Heavy Goods Vehicles/Big Buses"
+        }
+    ],
+    "area_name": "Orchard Cordon (OC)",
+    "lon": "1.30160724766252",
+    "id": "22"
+}
