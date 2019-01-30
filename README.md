@@ -29,12 +29,14 @@ python main.py
 ## References
 
 **Vehicle types available**
-1: Passenger Cars/Light Goods Vehicles/Taxis
-2: Motorcycles
-3: Heavy Goods Vehicles/Small Buses
-4: Very Heavy Goods Vehicles/Big Buses
+
+- 1: Passenger Cars/Light Goods Vehicles/Taxis
+- 2: Motorcycles
+- 3: Heavy Goods Vehicles/Small Buses
+- 4: Very Heavy Goods Vehicles/Big Buses
 
 **Day types available**
-0: Weekdays
-1: Saturday
+
+- 0: Weekdays
+- 1: Saturday
 
