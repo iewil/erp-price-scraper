@@ -1,6 +1,8 @@
 # erp-price-scraper
 A python script to scrape latest ERP prices from MyTransport.sg
 
+[https://www.mytransport.sg/content/mytransport/home/myconcierge/erprates.html](https://www.mytransport.sg/content/mytransport/home/myconcierge/erprates.html)
+
 ## Pre-requisites
 
 - Python 2.7
