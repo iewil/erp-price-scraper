@@ -1,7 +1,11 @@
 # erp-price-scraper
-A python script to scrape latest ERP prices from MyTransport.sg
+A python script to scrape the latest ERP prices from MyTransport.sg
 
-[https://www.mytransport.sg/content/mytransport/home/myconcierge/erprates.html](https://www.mytransport.sg/content/mytransport/home/myconcierge/erprates.html)
+As of now, there are 2 ways to get ERP pricing data from LTA:
+- LTA Datamall (Real-time API)
+- MyTransport.sg website interface [https://www.mytransport.sg/content/mytransport/home/myconcierge/erprates.html](https://www.mytransport.sg/content/mytransport/home/myconcierge/erprates.html)
+
+However, it is difficult to get a complete listing of all ERP pricing data because the interfaces have not been designed for bulk download. LTA's Datamall API only provides the ERP prices at that moment that you call the API, and MyTransport.sg's web service does not allow you to download the data via the interface.
 
 ## Pre-requisites
 
