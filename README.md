@@ -13,7 +13,13 @@ A python script to scrape latest ERP prices from MyTransport.sg
 git clone https://github.com/iewil/erp-price-scraper.git
 ```
 
-### Step 2: Run the script
+### Step 2: Install python libraries
+
+```
+pip install -r requirements.txt
+```
+
+### Step 3: Run the script
 
 Data will be saved into the 'data' folder in the root directory.
 ```
