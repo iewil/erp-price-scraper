@@ -11,14 +11,19 @@ url = "https://www.mytransport.sg/content/mytransport/home/myconcierge/erprates.
 def parseGantry(item):
     [ id, zone_id, road_name, road_type, area_name, lat, lon, last_updated ] = item.split(',')
     return {
-        'id': id,
-        'zone_id': zone_id,
-        'road_name': road_name,
-        'road_type': road_type,
-        'area_name': area_name,
-        'lat': lat,
-        'lon': lon,
-        'last_updated': last_updated
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [float(lat), float(lon)]
+        },
+        "properties": {
+            "id": int(id),
+            "zone_id": zone_id,
+            'road_name': road_name,
+            'road_type': road_type,
+            'area_name': area_name,   
+            'last_updated': last_updated         
+        }
     }
 
 def parseErpRates(item):
@@ -33,9 +38,8 @@ def parseErpRates(item):
     }
 
 def getRates(id, zone_id, vcc_type, day_type):
-    print 'getting rates for: id:' + id + '; zone_id: ' + zone_id + '; vcc_type: ' + vcc_type + '; day_type: ' + day_type 
-    rates_url = "https://www.mytransport.sg/content/mytransport/home/myconcierge/erprates/jcr:content/par/erprates.rates?id=" + id + "&zoneId=" + zone_id + "&vccType=" + vcc_type + "&dayType=" +day_type
-    # print rates_url
+    print 'getting rates for: id:' + str(id) + '; zone_id: ' + zone_id + '; vcc_type: ' + str(vcc_type) + '; day_type: ' + str(day_type) 
+    rates_url = "https://www.mytransport.sg/content/mytransport/home/myconcierge/erprates/jcr:content/par/erprates.rates?id=" + str(id) + "&zoneId=" + zone_id + "&vccType=" + str(vcc_type) + "&dayType=" + str(day_type)
     r = requests.get(rates_url)
     soup = BeautifulSoup(r.content, 'html.parser')
     items = soup.select('.erp_result_cont')
@@ -43,7 +47,7 @@ def getRates(id, zone_id, vcc_type, day_type):
     return parsed_rates
 
 def saveGantryFile(data):
-    with open('data/'+ data['id'] + '.json', 'w') as outfile:
+    with open('data/'+ str(data['properties']['id']) + '.json', 'w') as outfile:
         json.dump(data, outfile,
             indent=4, separators=(',', ': '))
 
@@ -52,6 +56,8 @@ def start():
     print 'starting scraper...'
     print 'url: ' + url
     r = requests.get(url)
+
+    r.raise_for_status()
 
     soup = BeautifulSoup(r.content, 'html.parser')
 
@@ -78,8 +84,8 @@ def start():
             s = vehicle_type.get_text()
             item = {
                 'vehicle': s[:s.find("(")-1],
-                'vcc_type': vehicle_type.attrs['value'][0],
-                'day_type': vehicle_type.attrs['value'][1],
+                'vcc_type': int(vehicle_type.attrs['value'][0]),
+                'day_type': int(vehicle_type.attrs['value'][1]),
             }
             vehicle_data.append(item)
     print 'number of vehicle types: ' + str(len(vehicle_data))
@@ -89,10 +95,10 @@ def start():
     for i in gantry_data:
         gantry_rates = []
         for j in vehicle_data:
-            vehicle_rates = getRates(i['id'], i['zone_id'], j['vcc_type'], j['day_type'])
+            vehicle_rates = getRates(i['properties']['id'], i['properties']['zone_id'], j['vcc_type'], j['day_type'])
             j['rates'] = vehicle_rates
             gantry_rates.append(j)
-        i['rates'] = gantry_rates
+        i['properties']['rates'] = gantry_rates
         saveGantryFile(i)
     print 'complete...'
 
