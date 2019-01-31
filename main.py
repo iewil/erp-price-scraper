@@ -91,7 +91,12 @@ def start():
     print 'number of vehicle types: ' + str(len(vehicle_data))
 
     print 'begin retrieving rates for all gantries and vehicle types'
-    gantry = []
+
+    output_data = {
+        "type": "FeatureCollection",
+        "features": []
+    }
+
     for i in gantry_data:
         gantry_rates = []
         for j in vehicle_data:
@@ -99,7 +104,11 @@ def start():
             j['rates'] = vehicle_rates
             gantry_rates.append(j)
         i['properties']['rates'] = gantry_rates
-        saveGantryFile(i)
+        output_data['features'].append(i)
+        # saveGantryFile(i)
+    with open('data/erp_rates.json', 'w') as outfile:
+        json.dump(output_data, outfile,
+            indent=4, separators=(',', ': '))
     print 'complete...'
 
 start()
