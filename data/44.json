@@ -1,164 +1,172 @@
 {
-    "road_type": "ARTERIAL ROADS",
-    "road_name": "Dunearn Road / Whitley Road",
-    "last_updated": "30 Jan 2019",
-    "zone_id": "DZ1",
-    "lat": "103.825323756791",
-    "rates": [
-        {
-            "vcc_type": "1",
-            "rates": [
-                {
-                    "price": 0.0,
-                    "start_date": "07:00",
-                    "end_date": "08:30"
-                },
-                {
-                    "price": 0.5,
-                    "start_date": "08:30",
-                    "end_date": "08:35"
-                },
-                {
-                    "price": 1.0,
-                    "start_date": "08:35",
-                    "end_date": "08:55"
-                },
-                {
-                    "price": 0.5,
-                    "start_date": "08:55",
-                    "end_date": "09:00"
-                },
-                {
-                    "price": 0.0,
-                    "start_date": "09:00",
-                    "end_date": "22:30"
-                }
-            ],
-            "day_type": "0",
-            "vehicle": "Passenger Cars/Light Goods Vehicles/Taxis"
-        },
-        {
-            "vcc_type": "1",
-            "rates": [],
-            "day_type": "1",
-            "vehicle": "Passenger Cars/Light Goods Vehicles/Taxis"
-        },
-        {
-            "vcc_type": "2",
-            "rates": [
-                {
-                    "price": 0.0,
-                    "start_date": "07:00",
-                    "end_date": "08:30"
-                },
-                {
-                    "price": 0.25,
-                    "start_date": "08:30",
-                    "end_date": "08:35"
-                },
-                {
-                    "price": 0.5,
-                    "start_date": "08:35",
-                    "end_date": "08:55"
-                },
-                {
-                    "price": 0.25,
-                    "start_date": "08:55",
-                    "end_date": "09:00"
-                },
-                {
-                    "price": 0.0,
-                    "start_date": "09:00",
-                    "end_date": "22:30"
-                }
-            ],
-            "day_type": "0",
-            "vehicle": "Motorcycles"
-        },
-        {
-            "vcc_type": "2",
-            "rates": [],
-            "day_type": "1",
-            "vehicle": "Motorcycles"
-        },
-        {
-            "vcc_type": "3",
-            "rates": [
-                {
-                    "price": 0.0,
-                    "start_date": "07:00",
-                    "end_date": "08:30"
-                },
-                {
-                    "price": 0.75,
-                    "start_date": "08:30",
-                    "end_date": "08:35"
-                },
-                {
-                    "price": 1.5,
-                    "start_date": "08:35",
-                    "end_date": "08:55"
-                },
-                {
-                    "price": 0.75,
-                    "start_date": "08:55",
-                    "end_date": "09:00"
-                },
-                {
-                    "price": 0.0,
-                    "start_date": "09:00",
-                    "end_date": "22:30"
-                }
-            ],
-            "day_type": "0",
-            "vehicle": "Heavy Goods Vehicles/Small Buses"
-        },
-        {
-            "vcc_type": "3",
-            "rates": [],
-            "day_type": "1",
-            "vehicle": "Heavy Goods Vehicles/Small Buses"
-        },
-        {
-            "vcc_type": "4",
-            "rates": [
-                {
-                    "price": 0.0,
-                    "start_date": "07:00",
-                    "end_date": "08:30"
-                },
-                {
-                    "price": 1.0,
-                    "start_date": "08:30",
-                    "end_date": "08:35"
-                },
-                {
-                    "price": 2.0,
-                    "start_date": "08:35",
-                    "end_date": "08:55"
-                },
-                {
-                    "price": 1.0,
-                    "start_date": "08:55",
-                    "end_date": "09:00"
-                },
-                {
-                    "price": 0.0,
-                    "start_date": "09:00",
-                    "end_date": "22:30"
-                }
-            ],
-            "day_type": "0",
-            "vehicle": "Very Heavy Goods Vehicles/Big Buses"
-        },
-        {
-            "vcc_type": "4",
-            "rates": [],
-            "day_type": "1",
-            "vehicle": "Very Heavy Goods Vehicles/Big Buses"
-        }
-    ],
-    "area_name": "Dunearn Road (DR)",
-    "lon": "1.32113469831557",
-    "id": "44"
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            103.825323756791,
+            1.32113469831557
+        ]
+    },
+    "type": "Feature",
+    "properties": {
+        "road_name": "Dunearn Road / Whitley Road",
+        "last_updated": "31 Jan 2019",
+        "zone_id": "DZ1",
+        "area_name": "Dunearn Road (DR)",
+        "road_type": "ARTERIAL ROADS",
+        "rates": [
+            {
+                "vcc_type": 1,
+                "rates": [
+                    {
+                        "price": 0.0,
+                        "start_date": "07:00",
+                        "end_date": "08:30"
+                    },
+                    {
+                        "price": 0.5,
+                        "start_date": "08:30",
+                        "end_date": "08:35"
+                    },
+                    {
+                        "price": 1.0,
+                        "start_date": "08:35",
+                        "end_date": "08:55"
+                    },
+                    {
+                        "price": 0.5,
+                        "start_date": "08:55",
+                        "end_date": "09:00"
+                    },
+                    {
+                        "price": 0.0,
+                        "start_date": "09:00",
+                        "end_date": "22:30"
+                    }
+                ],
+                "day_type": 0,
+                "vehicle": "Passenger Cars/Light Goods Vehicles/Taxis"
+            },
+            {
+                "vcc_type": 1,
+                "rates": [],
+                "day_type": 1,
+                "vehicle": "Passenger Cars/Light Goods Vehicles/Taxis"
+            },
+            {
+                "vcc_type": 2,
+                "rates": [
+                    {
+                        "price": 0.0,
+                        "start_date": "07:00",
+                        "end_date": "08:30"
+                    },
+                    {
+                        "price": 0.25,
+                        "start_date": "08:30",
+                        "end_date": "08:35"
+                    },
+                    {
+                        "price": 0.5,
+                        "start_date": "08:35",
+                        "end_date": "08:55"
+                    },
+                    {
+                        "price": 0.25,
+                        "start_date": "08:55",
+                        "end_date": "09:00"
+                    },
+                    {
+                        "price": 0.0,
+                        "start_date": "09:00",
+                        "end_date": "22:30"
+                    }
+                ],
+                "day_type": 0,
+                "vehicle": "Motorcycles"
+            },
+            {
+                "vcc_type": 2,
+                "rates": [],
+                "day_type": 1,
+                "vehicle": "Motorcycles"
+            },
+            {
+                "vcc_type": 3,
+                "rates": [
+                    {
+                        "price": 0.0,
+                        "start_date": "07:00",
+                        "end_date": "08:30"
+                    },
+                    {
+                        "price": 0.75,
+                        "start_date": "08:30",
+                        "end_date": "08:35"
+                    },
+                    {
+                        "price": 1.5,
+                        "start_date": "08:35",
+                        "end_date": "08:55"
+                    },
+                    {
+                        "price": 0.75,
+                        "start_date": "08:55",
+                        "end_date": "09:00"
+                    },
+                    {
+                        "price": 0.0,
+                        "start_date": "09:00",
+                        "end_date": "22:30"
+                    }
+                ],
+                "day_type": 0,
+                "vehicle": "Heavy Goods Vehicles/Small Buses"
+            },
+            {
+                "vcc_type": 3,
+                "rates": [],
+                "day_type": 1,
+                "vehicle": "Heavy Goods Vehicles/Small Buses"
+            },
+            {
+                "vcc_type": 4,
+                "rates": [
+                    {
+                        "price": 0.0,
+                        "start_date": "07:00",
+                        "end_date": "08:30"
+                    },
+                    {
+                        "price": 1.0,
+                        "start_date": "08:30",
+                        "end_date": "08:35"
+                    },
+                    {
+                        "price": 2.0,
+                        "start_date": "08:35",
+                        "end_date": "08:55"
+                    },
+                    {
+                        "price": 1.0,
+                        "start_date": "08:55",
+                        "end_date": "09:00"
+                    },
+                    {
+                        "price": 0.0,
+                        "start_date": "09:00",
+                        "end_date": "22:30"
+                    }
+                ],
+                "day_type": 0,
+                "vehicle": "Very Heavy Goods Vehicles/Big Buses"
+            },
+            {
+                "vcc_type": 4,
+                "rates": [],
+                "day_type": 1,
+                "vehicle": "Very Heavy Goods Vehicles/Big Buses"
+            }
+        ],
+        "id": 44
+    }
 }

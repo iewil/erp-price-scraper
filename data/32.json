@@ -1,204 +1,212 @@
 {
-    "road_type": "EXPRESSWAYS",
-    "road_name": "PIE after Kallang Bahru on Woodsville Flyover",
-    "last_updated": "30 Jan 2019",
-    "zone_id": "PE1",
-    "lat": "103.870532957615",
-    "rates": [
-        {
-            "vcc_type": "1",
-            "rates": [
-                {
-                    "price": 0.0,
-                    "start_date": "07:00",
-                    "end_date": "07:30"
-                },
-                {
-                    "price": 0.5,
-                    "start_date": "07:30",
-                    "end_date": "07:35"
-                },
-                {
-                    "price": 1.0,
-                    "start_date": "07:35",
-                    "end_date": "08:30"
-                },
-                {
-                    "price": 1.5,
-                    "start_date": "08:30",
-                    "end_date": "08:55"
-                },
-                {
-                    "price": 1.0,
-                    "start_date": "08:55",
-                    "end_date": "09:00"
-                },
-                {
-                    "price": 0.5,
-                    "start_date": "09:00",
-                    "end_date": "09:30"
-                },
-                {
-                    "price": 0.0,
-                    "start_date": "09:30",
-                    "end_date": "22:30"
-                }
-            ],
-            "day_type": "0",
-            "vehicle": "Passenger Cars/Light Goods Vehicles/Taxis"
-        },
-        {
-            "vcc_type": "1",
-            "rates": [],
-            "day_type": "1",
-            "vehicle": "Passenger Cars/Light Goods Vehicles/Taxis"
-        },
-        {
-            "vcc_type": "2",
-            "rates": [
-                {
-                    "price": 0.0,
-                    "start_date": "07:00",
-                    "end_date": "07:30"
-                },
-                {
-                    "price": 0.25,
-                    "start_date": "07:30",
-                    "end_date": "07:35"
-                },
-                {
-                    "price": 0.5,
-                    "start_date": "07:35",
-                    "end_date": "08:30"
-                },
-                {
-                    "price": 0.75,
-                    "start_date": "08:30",
-                    "end_date": "08:55"
-                },
-                {
-                    "price": 0.5,
-                    "start_date": "08:55",
-                    "end_date": "09:00"
-                },
-                {
-                    "price": 0.25,
-                    "start_date": "09:00",
-                    "end_date": "09:30"
-                },
-                {
-                    "price": 0.0,
-                    "start_date": "09:30",
-                    "end_date": "22:30"
-                }
-            ],
-            "day_type": "0",
-            "vehicle": "Motorcycles"
-        },
-        {
-            "vcc_type": "2",
-            "rates": [],
-            "day_type": "1",
-            "vehicle": "Motorcycles"
-        },
-        {
-            "vcc_type": "3",
-            "rates": [
-                {
-                    "price": 0.0,
-                    "start_date": "07:00",
-                    "end_date": "07:30"
-                },
-                {
-                    "price": 0.75,
-                    "start_date": "07:30",
-                    "end_date": "07:35"
-                },
-                {
-                    "price": 1.5,
-                    "start_date": "07:35",
-                    "end_date": "08:30"
-                },
-                {
-                    "price": 2.25,
-                    "start_date": "08:30",
-                    "end_date": "08:55"
-                },
-                {
-                    "price": 1.5,
-                    "start_date": "08:55",
-                    "end_date": "09:00"
-                },
-                {
-                    "price": 0.75,
-                    "start_date": "09:00",
-                    "end_date": "09:30"
-                },
-                {
-                    "price": 0.0,
-                    "start_date": "09:30",
-                    "end_date": "22:30"
-                }
-            ],
-            "day_type": "0",
-            "vehicle": "Heavy Goods Vehicles/Small Buses"
-        },
-        {
-            "vcc_type": "3",
-            "rates": [],
-            "day_type": "1",
-            "vehicle": "Heavy Goods Vehicles/Small Buses"
-        },
-        {
-            "vcc_type": "4",
-            "rates": [
-                {
-                    "price": 0.0,
-                    "start_date": "07:00",
-                    "end_date": "07:30"
-                },
-                {
-                    "price": 1.0,
-                    "start_date": "07:30",
-                    "end_date": "07:35"
-                },
-                {
-                    "price": 2.0,
-                    "start_date": "07:35",
-                    "end_date": "08:30"
-                },
-                {
-                    "price": 3.0,
-                    "start_date": "08:30",
-                    "end_date": "08:55"
-                },
-                {
-                    "price": 2.0,
-                    "start_date": "08:55",
-                    "end_date": "09:00"
-                },
-                {
-                    "price": 1.0,
-                    "start_date": "09:00",
-                    "end_date": "09:30"
-                },
-                {
-                    "price": 0.0,
-                    "start_date": "09:30",
-                    "end_date": "22:30"
-                }
-            ],
-            "day_type": "0",
-            "vehicle": "Very Heavy Goods Vehicles/Big Buses"
-        },
-        {
-            "vcc_type": "4",
-            "rates": [],
-            "day_type": "1",
-            "vehicle": "Very Heavy Goods Vehicles/Big Buses"
-        }
-    ],
-    "area_name": "Pan-Island Expressway (PIE)",
-    "lon": "1.32632947958352",
-    "id": "32"
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            103.870532957615,
+            1.32632947958352
+        ]
+    },
+    "type": "Feature",
+    "properties": {
+        "road_name": "PIE after Kallang Bahru on Woodsville Flyover",
+        "last_updated": "31 Jan 2019",
+        "zone_id": "PE1",
+        "area_name": "Pan-Island Expressway (PIE)",
+        "road_type": "EXPRESSWAYS",
+        "rates": [
+            {
+                "vcc_type": 1,
+                "rates": [
+                    {
+                        "price": 0.0,
+                        "start_date": "07:00",
+                        "end_date": "07:30"
+                    },
+                    {
+                        "price": 0.5,
+                        "start_date": "07:30",
+                        "end_date": "07:35"
+                    },
+                    {
+                        "price": 1.0,
+                        "start_date": "07:35",
+                        "end_date": "08:30"
+                    },
+                    {
+                        "price": 1.5,
+                        "start_date": "08:30",
+                        "end_date": "08:55"
+                    },
+                    {
+                        "price": 1.0,
+                        "start_date": "08:55",
+                        "end_date": "09:00"
+                    },
+                    {
+                        "price": 0.5,
+                        "start_date": "09:00",
+                        "end_date": "09:30"
+                    },
+                    {
+                        "price": 0.0,
+                        "start_date": "09:30",
+                        "end_date": "22:30"
+                    }
+                ],
+                "day_type": 0,
+                "vehicle": "Passenger Cars/Light Goods Vehicles/Taxis"
+            },
+            {
+                "vcc_type": 1,
+                "rates": [],
+                "day_type": 1,
+                "vehicle": "Passenger Cars/Light Goods Vehicles/Taxis"
+            },
+            {
+                "vcc_type": 2,
+                "rates": [
+                    {
+                        "price": 0.0,
+                        "start_date": "07:00",
+                        "end_date": "07:30"
+                    },
+                    {
+                        "price": 0.25,
+                        "start_date": "07:30",
+                        "end_date": "07:35"
+                    },
+                    {
+                        "price": 0.5,
+                        "start_date": "07:35",
+                        "end_date": "08:30"
+                    },
+                    {
+                        "price": 0.75,
+                        "start_date": "08:30",
+                        "end_date": "08:55"
+                    },
+                    {
+                        "price": 0.5,
+                        "start_date": "08:55",
+                        "end_date": "09:00"
+                    },
+                    {
+                        "price": 0.25,
+                        "start_date": "09:00",
+                        "end_date": "09:30"
+                    },
+                    {
+                        "price": 0.0,
+                        "start_date": "09:30",
+                        "end_date": "22:30"
+                    }
+                ],
+                "day_type": 0,
+                "vehicle": "Motorcycles"
+            },
+            {
+                "vcc_type": 2,
+                "rates": [],
+                "day_type": 1,
+                "vehicle": "Motorcycles"
+            },
+            {
+                "vcc_type": 3,
+                "rates": [
+                    {
+                        "price": 0.0,
+                        "start_date": "07:00",
+                        "end_date": "07:30"
+                    },
+                    {
+                        "price": 0.75,
+                        "start_date": "07:30",
+                        "end_date": "07:35"
+                    },
+                    {
+                        "price": 1.5,
+                        "start_date": "07:35",
+                        "end_date": "08:30"
+                    },
+                    {
+                        "price": 2.25,
+                        "start_date": "08:30",
+                        "end_date": "08:55"
+                    },
+                    {
+                        "price": 1.5,
+                        "start_date": "08:55",
+                        "end_date": "09:00"
+                    },
+                    {
+                        "price": 0.75,
+                        "start_date": "09:00",
+                        "end_date": "09:30"
+                    },
+                    {
+                        "price": 0.0,
+                        "start_date": "09:30",
+                        "end_date": "22:30"
+                    }
+                ],
+                "day_type": 0,
+                "vehicle": "Heavy Goods Vehicles/Small Buses"
+            },
+            {
+                "vcc_type": 3,
+                "rates": [],
+                "day_type": 1,
+                "vehicle": "Heavy Goods Vehicles/Small Buses"
+            },
+            {
+                "vcc_type": 4,
+                "rates": [
+                    {
+                        "price": 0.0,
+                        "start_date": "07:00",
+                        "end_date": "07:30"
+                    },
+                    {
+                        "price": 1.0,
+                        "start_date": "07:30",
+                        "end_date": "07:35"
+                    },
+                    {
+                        "price": 2.0,
+                        "start_date": "07:35",
+                        "end_date": "08:30"
+                    },
+                    {
+                        "price": 3.0,
+                        "start_date": "08:30",
+                        "end_date": "08:55"
+                    },
+                    {
+                        "price": 2.0,
+                        "start_date": "08:55",
+                        "end_date": "09:00"
+                    },
+                    {
+                        "price": 1.0,
+                        "start_date": "09:00",
+                        "end_date": "09:30"
+                    },
+                    {
+                        "price": 0.0,
+                        "start_date": "09:30",
+                        "end_date": "22:30"
+                    }
+                ],
+                "day_type": 0,
+                "vehicle": "Very Heavy Goods Vehicles/Big Buses"
+            },
+            {
+                "vcc_type": 4,
+                "rates": [],
+                "day_type": 1,
+                "vehicle": "Very Heavy Goods Vehicles/Big Buses"
+            }
+        ],
+        "id": 32
+    }
 }

@@ -1,164 +1,172 @@
 {
-    "road_type": "ARTERIAL ROADS",
-    "road_name": "Toa Payoh Lorong 6",
-    "last_updated": "30 Jan 2019",
-    "zone_id": "TPZ",
-    "lat": "103.853256089",
-    "rates": [
-        {
-            "vcc_type": "1",
-            "rates": [
-                {
-                    "price": 0.0,
-                    "start_date": "07:00",
-                    "end_date": "08:00"
-                },
-                {
-                    "price": 0.5,
-                    "start_date": "08:00",
-                    "end_date": "08:05"
-                },
-                {
-                    "price": 1.0,
-                    "start_date": "08:05",
-                    "end_date": "08:55"
-                },
-                {
-                    "price": 0.5,
-                    "start_date": "08:55",
-                    "end_date": "09:00"
-                },
-                {
-                    "price": 0.0,
-                    "start_date": "09:00",
-                    "end_date": "22:30"
-                }
-            ],
-            "day_type": "0",
-            "vehicle": "Passenger Cars/Light Goods Vehicles/Taxis"
-        },
-        {
-            "vcc_type": "1",
-            "rates": [],
-            "day_type": "1",
-            "vehicle": "Passenger Cars/Light Goods Vehicles/Taxis"
-        },
-        {
-            "vcc_type": "2",
-            "rates": [
-                {
-                    "price": 0.0,
-                    "start_date": "07:00",
-                    "end_date": "08:00"
-                },
-                {
-                    "price": 0.25,
-                    "start_date": "08:00",
-                    "end_date": "08:05"
-                },
-                {
-                    "price": 0.5,
-                    "start_date": "08:05",
-                    "end_date": "08:55"
-                },
-                {
-                    "price": 0.25,
-                    "start_date": "08:55",
-                    "end_date": "09:00"
-                },
-                {
-                    "price": 0.0,
-                    "start_date": "09:00",
-                    "end_date": "22:30"
-                }
-            ],
-            "day_type": "0",
-            "vehicle": "Motorcycles"
-        },
-        {
-            "vcc_type": "2",
-            "rates": [],
-            "day_type": "1",
-            "vehicle": "Motorcycles"
-        },
-        {
-            "vcc_type": "3",
-            "rates": [
-                {
-                    "price": 0.0,
-                    "start_date": "07:00",
-                    "end_date": "08:00"
-                },
-                {
-                    "price": 0.75,
-                    "start_date": "08:00",
-                    "end_date": "08:05"
-                },
-                {
-                    "price": 1.5,
-                    "start_date": "08:05",
-                    "end_date": "08:55"
-                },
-                {
-                    "price": 0.75,
-                    "start_date": "08:55",
-                    "end_date": "09:00"
-                },
-                {
-                    "price": 0.0,
-                    "start_date": "09:00",
-                    "end_date": "22:30"
-                }
-            ],
-            "day_type": "0",
-            "vehicle": "Heavy Goods Vehicles/Small Buses"
-        },
-        {
-            "vcc_type": "3",
-            "rates": [],
-            "day_type": "1",
-            "vehicle": "Heavy Goods Vehicles/Small Buses"
-        },
-        {
-            "vcc_type": "4",
-            "rates": [
-                {
-                    "price": 0.0,
-                    "start_date": "07:00",
-                    "end_date": "08:00"
-                },
-                {
-                    "price": 1.0,
-                    "start_date": "08:00",
-                    "end_date": "08:05"
-                },
-                {
-                    "price": 2.0,
-                    "start_date": "08:05",
-                    "end_date": "08:55"
-                },
-                {
-                    "price": 1.0,
-                    "start_date": "08:55",
-                    "end_date": "09:00"
-                },
-                {
-                    "price": 0.0,
-                    "start_date": "09:00",
-                    "end_date": "22:30"
-                }
-            ],
-            "day_type": "0",
-            "vehicle": "Very Heavy Goods Vehicles/Big Buses"
-        },
-        {
-            "vcc_type": "4",
-            "rates": [],
-            "day_type": "1",
-            "vehicle": "Very Heavy Goods Vehicles/Big Buses"
-        }
-    ],
-    "area_name": "Outer Ring Road area (ORR)",
-    "lon": "1.34062171746891",
-    "id": "56"
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            103.853256089,
+            1.34062171746891
+        ]
+    },
+    "type": "Feature",
+    "properties": {
+        "road_name": "Toa Payoh Lorong 6",
+        "last_updated": "31 Jan 2019",
+        "zone_id": "TPZ",
+        "area_name": "Outer Ring Road area (ORR)",
+        "road_type": "ARTERIAL ROADS",
+        "rates": [
+            {
+                "vcc_type": 1,
+                "rates": [
+                    {
+                        "price": 0.0,
+                        "start_date": "07:00",
+                        "end_date": "08:00"
+                    },
+                    {
+                        "price": 0.5,
+                        "start_date": "08:00",
+                        "end_date": "08:05"
+                    },
+                    {
+                        "price": 1.0,
+                        "start_date": "08:05",
+                        "end_date": "08:55"
+                    },
+                    {
+                        "price": 0.5,
+                        "start_date": "08:55",
+                        "end_date": "09:00"
+                    },
+                    {
+                        "price": 0.0,
+                        "start_date": "09:00",
+                        "end_date": "22:30"
+                    }
+                ],
+                "day_type": 0,
+                "vehicle": "Passenger Cars/Light Goods Vehicles/Taxis"
+            },
+            {
+                "vcc_type": 1,
+                "rates": [],
+                "day_type": 1,
+                "vehicle": "Passenger Cars/Light Goods Vehicles/Taxis"
+            },
+            {
+                "vcc_type": 2,
+                "rates": [
+                    {
+                        "price": 0.0,
+                        "start_date": "07:00",
+                        "end_date": "08:00"
+                    },
+                    {
+                        "price": 0.25,
+                        "start_date": "08:00",
+                        "end_date": "08:05"
+                    },
+                    {
+                        "price": 0.5,
+                        "start_date": "08:05",
+                        "end_date": "08:55"
+                    },
+                    {
+                        "price": 0.25,
+                        "start_date": "08:55",
+                        "end_date": "09:00"
+                    },
+                    {
+                        "price": 0.0,
+                        "start_date": "09:00",
+                        "end_date": "22:30"
+                    }
+                ],
+                "day_type": 0,
+                "vehicle": "Motorcycles"
+            },
+            {
+                "vcc_type": 2,
+                "rates": [],
+                "day_type": 1,
+                "vehicle": "Motorcycles"
+            },
+            {
+                "vcc_type": 3,
+                "rates": [
+                    {
+                        "price": 0.0,
+                        "start_date": "07:00",
+                        "end_date": "08:00"
+                    },
+                    {
+                        "price": 0.75,
+                        "start_date": "08:00",
+                        "end_date": "08:05"
+                    },
+                    {
+                        "price": 1.5,
+                        "start_date": "08:05",
+                        "end_date": "08:55"
+                    },
+                    {
+                        "price": 0.75,
+                        "start_date": "08:55",
+                        "end_date": "09:00"
+                    },
+                    {
+                        "price": 0.0,
+                        "start_date": "09:00",
+                        "end_date": "22:30"
+                    }
+                ],
+                "day_type": 0,
+                "vehicle": "Heavy Goods Vehicles/Small Buses"
+            },
+            {
+                "vcc_type": 3,
+                "rates": [],
+                "day_type": 1,
+                "vehicle": "Heavy Goods Vehicles/Small Buses"
+            },
+            {
+                "vcc_type": 4,
+                "rates": [
+                    {
+                        "price": 0.0,
+                        "start_date": "07:00",
+                        "end_date": "08:00"
+                    },
+                    {
+                        "price": 1.0,
+                        "start_date": "08:00",
+                        "end_date": "08:05"
+                    },
+                    {
+                        "price": 2.0,
+                        "start_date": "08:05",
+                        "end_date": "08:55"
+                    },
+                    {
+                        "price": 1.0,
+                        "start_date": "08:55",
+                        "end_date": "09:00"
+                    },
+                    {
+                        "price": 0.0,
+                        "start_date": "09:00",
+                        "end_date": "22:30"
+                    }
+                ],
+                "day_type": 0,
+                "vehicle": "Very Heavy Goods Vehicles/Big Buses"
+            },
+            {
+                "vcc_type": 4,
+                "rates": [],
+                "day_type": 1,
+                "vehicle": "Very Heavy Goods Vehicles/Big Buses"
+            }
+        ],
+        "id": 56
+    }
 }
